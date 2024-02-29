@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExpenseApp</string>
+    <string name="USD">Amount: $</string>
+    <string name="select_category">Select category</string>
+    <string name="new_expense">Create</string>
+    <string name="expense_amount">$%1$s</string>
+    <string name="expense_date">Date: %1$s</string>
+    <string name="expense_description">Description: %1$s</string>
+    <string name="image_description">image description</string>
+    <string name="expense_title_hint">Enter the title here…</string>
+    <string name="expense_amount_hint">Enter the amount here…</string>
+    <string name="expense_description_hint">Enter the description here…</string>
+    <string name="my_dropdown_prompt">Select an item</string>
+
+</resources>

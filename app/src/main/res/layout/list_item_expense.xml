@@ -1,0 +1,31 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/expense_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expense Title"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+        <TextView
+            android:id="@+id/expense_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expense_amount"/>
+        <TextView
+            android:id="@+id/expense_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expense Date"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
